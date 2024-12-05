@@ -13,7 +13,13 @@ body{
 
 
 
+#buttonTextEdit{
 
+    background-color: paleturquoise;
+  margin:5px;
+  padding:20px;
+ border:2px solid purple;
+}
 
 
 .name{
