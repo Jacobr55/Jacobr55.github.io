@@ -65,11 +65,65 @@ background-color: darkcyan;
 }
 .foodbox{
   background-color: khaki;
-  
   margin:5px; 
   padding:20px;
  border:2px solid purple;
+
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+    
 }
+
+@keyframes bounce {
+  from {
+   
+    top: 0px;
+      background-color: lightyellow;
+  }
+
+ 
+
+  20% {
+  
+    top: -10px;
+      background-color: orange;
+  }
+
+  
+  40% {
+   
+    top: 10px;
+      background-color: lightyellow;
+  }
+
+ 
+
+  60% {
+    
+    top: -10px;
+       background-color: orange;
+  }
+
+  
+  
+  80% {
+    
+    top: 0px;
+      background-color: lightyellow;
+  }
+
+  
+
+  to {
+   
+    top: 0px;
+      background-color: khaki;
+  }
+    
 .foodlist{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-shadow:4px 4px 10px plum
