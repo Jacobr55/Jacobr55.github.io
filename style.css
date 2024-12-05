@@ -14,8 +14,15 @@ body{
 
 .buttonButton{
 
- background-color: paleturquoise;
- display: inline-block;
+    background-color: paleturquoise;
+    margin: 20px 5px 10px 5px; 
+    padding: 10px 20px;
+    border: 2px solid purple;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
 
     
 }
