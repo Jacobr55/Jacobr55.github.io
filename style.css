@@ -1,0 +1,126 @@
+
+
+
+
+    
+
+
+
+body{
+
+  background: linear-gradient(white,rgb(214, 153, 214), white, rgb(186, 131, 186));
+}
+
+.name{
+color:rgb(89, 55, 156);
+text-shadow: 0 0 15px blue, 0 0 25px purple;
+}
+.navbox{
+  
+  background-color: paleturquoise;
+  margin:5px;
+  padding:20px;
+ border:2px solid purple;
+}
+.funbox{
+  
+  background-color: antiquewhite;
+  margin:5px;
+  padding:20px;
+ border:2px solid purple;
+}
+.navbox2{
+ 
+  background-color: paleturquoise;
+  
+  margin:5px; 
+  padding:20px;
+ border:2px solid purple;
+}
+.favfood{
+background-color: darkcyan;
+  
+  margin:5px; 
+  padding:20px;
+ border:2px solid purple;
+
+}
+.foodbox{
+  background-color: khaki;
+  
+  margin:5px; 
+  padding:20px;
+ border:2px solid purple;
+}
+.foodlist{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow:4px 4px 10px plum
+
+}
+h1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.email{
+  text-align:center;
+   background-color: peachpuff;
+  display: inline-block;
+  margin:5px; 
+  padding:20px;
+ border:2px solid purple;
+}
+.dog{
+  width:500px;
+  height:500px;
+  box-shadow:4px 4px 10px yellow;
+}
+.dogdog{
+  font-family:cursive;
+}
+.class{
+  text-shadow:4px 4px 10px plum
+}
+.class2{
+  color:purple
+}
+.fun1{
+text-shadow:4px 4px 10px plum
+}
+.fun2{
+  text-shadow:4px 4px 10px palevioletred
+}
+.fun3{
+  text-shadow:4px 4px 10px rebeccapurple
+}
+.fun4{
+  text-shadow:4px 4px 10px powderblue
+}
+.fun5{
+  text-shadow:4px 4px 10px palegreen
+}
+.lang{
+  text-shadow:4px 4px 10px white;
+  text-decoration: underline;
+}
+
+
+   #everything{
+    display:flex;
+     flex-direction:column;
+     justify-content:space-between;
+    
+   }
+
+
+
+@media(max-width: 700px)
+      {
+        div#everything {
+          
+          flex-direction:column;
+          
+          
+        }
+      }
+
+
+      
