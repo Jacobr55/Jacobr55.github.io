@@ -11,7 +11,7 @@ body{
   background: linear-gradient(white,rgb(214, 153, 214), white, rgb(186, 131, 186));
 }
 
-.buttonColor{
+#buttonColor{
 
 background-color: paleturquoise;
   
