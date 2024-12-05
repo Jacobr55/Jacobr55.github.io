@@ -15,11 +15,7 @@ body{
 .buttonButton{
 
  background-color: paleturquoise;
-  margin: 5px;
-  padding: 10px 20px; 
-  border: 2px solid purple;
-  display: inline-block; 
-  text-align: center;    
+ 
 
     
 }
