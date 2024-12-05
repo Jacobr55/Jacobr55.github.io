@@ -15,7 +15,7 @@ body{
 .buttonButton{
 
  background-color: paleturquoise;
- 
+ display: inline-block;
 
     
 }
