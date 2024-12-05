@@ -82,7 +82,7 @@ background-color: darkcyan;
   from {
    
     top: 0px;
-     
+      background-color: khaki;
   }
 
  
@@ -90,14 +90,14 @@ background-color: darkcyan;
   20% {
   
     top: -10px;
-      
+       background-color: khaki;
   }
 
   
   40% {
    
     top: 10px;
-     
+      background-color: khaki;
   }
 
  
@@ -105,7 +105,7 @@ background-color: darkcyan;
   60% {
     
     top: -10px;
-       
+        background-color: khaki;
   }
 
   
@@ -113,7 +113,7 @@ background-color: darkcyan;
   80% {
     
     top: 0px;
-      
+       background-color: khaki;
   }
 
   
@@ -121,7 +121,7 @@ background-color: darkcyan;
   to {
    
     top: 0px;
-      
+       background-color: khaki;
   }
     
 .foodlist{
