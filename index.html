@@ -16,12 +16,12 @@
 	
     <body>
     <div id= "everything"> 
-
+  
 
 
 
       <header> 
-      <h2 class="name"> Jacob Reimer </h2>
+      <h2 class="name"> Jacob Reimer ! </h2>
         <p class="email">jdreimer@ksu.edu <br>
         jacobr5229@gmail.com <br>
         123.456.7890
@@ -31,14 +31,19 @@
         <nav>
         <h1>Navigation</h1>
         <br>
-        <a class="navbox btn btn-outline-secondary me-5 " href="aboutme.html"> About me </a> <br>
+        <a class="navbox" href="aboutme.html" > About me </a> <br>
         <br>
         <br>
-        <a class="navbox2 btn btn-outline-secondary me-5 " href="favoritefoods.html"> My favorite foods </a> <br>
+        <a class="navbox2" href="favoritefoods.html"> My favorite foods </a> <br>
         <br>
         </nav>
 
+	<button class= "buttonButton" id="buttonTextEdit"> Click for a different font! </button>
 
+
+
+
+	    
           <main>
 
             <section>
@@ -126,6 +131,21 @@
 </div> 
 
 
+<script>
+
+ document.addEventListener('DOMContentLoaded', function() {
+	
+const buttonTextEdit= document.getElementById('buttonTextEdit');
+const editText = document.getElementById('everything')
+
+	buttonTextEdit.addEventListener('click', function(){
+
+	editText.style.fontFamily = "Courier New";
+
+	});
+
+ });
+</script>
 
       </body>
       </html>
