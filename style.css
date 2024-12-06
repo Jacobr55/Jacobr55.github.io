@@ -38,7 +38,7 @@ text-shadow: 0 0 15px blue, 0 0 25px purple;
   margin:5px;
   padding:20px;
  border:2px solid purple;
- font-size: 30px;
+ font-size: 60px;
     color:black;
 }
 .funbox{
@@ -49,7 +49,7 @@ text-shadow: 0 0 15px blue, 0 0 25px purple;
  border:2px solid purple;
 }
 .navbox2{
-  margin-left:30px;
+  margin-left:60px;
   background-color: paleturquoise;
   
   margin:5px; 
