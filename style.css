@@ -6,9 +6,9 @@
 
 
 
-body{
+.body{
 
- background: linear-gradient(white,rgb(214, 153, 214), white, rgb(186, 131, 186));
+ background-color: white;
 }
 
 
